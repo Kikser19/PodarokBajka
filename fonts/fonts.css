@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Post No Bills Extrabold';
+    src: url('./post-no-bills/postnobillscolombo-extrabold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Post No Bills';
+    src: url('./post-no-bills/postnobillscolombo-medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

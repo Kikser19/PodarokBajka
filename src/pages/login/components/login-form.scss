@@ -1,0 +1,43 @@
+@import "src/styles/colors";
+@import "fonts/fonts";
+
+#login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 12rem;
+
+  .title {
+    color: $primary;
+    font-size: 50px !important;
+    font-family: 'Post No Bills Extrabold', sans-serif !important;
+  }
+
+  .text-font {
+    color: white;
+    font-family: "Post No Bills", sans-serif !important;
+    font-size: 20px !important;
+  }
+
+  .inputs {
+    margin-top: 1.5rem;
+    align-self: start;
+    margin-left: 0.5rem;
+  }
+
+  .text-input {
+    margin-left: 0.25rem;
+    width: 22rem !important;
+    background-color: $background-color;
+    border-radius: 10%;
+    color: white !important;
+    padding-left: 16px !important;
+  }
+
+  .css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root {
+    color: $border-color;
+    font-family: "Post No Bills", sans-serif !important;
+
+
+  }
+}
