@@ -6,6 +6,12 @@
   flex-direction: column;
   align-items: center;
   padding: 0 12rem;
+  margin-top: 3rem;
+
+  .text-font {
+    font-family: "Port Ligat Slab", sans-serif;
+    font-size: 18px;
+  }
 
   .title {
     color: $primary;
@@ -13,31 +19,52 @@
     font-family: 'Post No Bills Extrabold', sans-serif !important;
   }
 
-  .text-font {
+  .subtitle {
     color: white;
     font-family: "Post No Bills", sans-serif !important;
     font-size: 20px !important;
   }
 
   .inputs {
-    margin-top: 1.5rem;
     align-self: start;
-    margin-left: 0.5rem;
+    margin: 3rem 0 1rem 0.5rem;
   }
 
-  .text-input {
-    margin-left: 0.25rem;
-    width: 22rem !important;
-    background-color: $background-color;
-    border-radius: 10%;
-    color: white !important;
-    padding-left: 16px !important;
+  .remember-me-container {
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
   }
 
-  .css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root {
+  .checkbox {
+    padding: 0;
+    margin-right: 0.5rem;
+  }
+
+  svg {
+    fill: $primary;
+  }
+
+  .forgot-password-container {
+    display: flex;
+    justify-content: end;
+  }
+
+  .forgot-pass-font {
+    color: $primary;
+  }
+
+  .sign-in-button {
+    background-color: $primary;
+    width: 95%;
+    font-family: "Port Ligat Slab", sans-serif;
+    font-size: 20px;
+    margin: 1rem 0 3rem 0.5rem;
+  }
+
+  .question-font {
     color: $border-color;
-    font-family: "Post No Bills", sans-serif !important;
-
-
+    font-family: "Port Ligat Slab", sans-serif !important;
+    font-size: 20px;
   }
 }

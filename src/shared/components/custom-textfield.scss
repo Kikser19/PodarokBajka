@@ -1,0 +1,11 @@
+@import "src/styles/colors";
+
+.text-input {
+  margin: 0.5rem 0 0.75rem 0.25rem;
+  width: 19.5rem;
+  background-color: $background-color;
+  border-radius: 5%;
+  padding-left: 16px;
+  height: 3.5rem;
+  border: 2px solid $border-color;
+}
